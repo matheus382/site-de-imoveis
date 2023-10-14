@@ -1,0 +1,51 @@
+/* Estilos para o formulário de login */
+body {
+    background-color: #00a77e; /* Fundo verde para a página inteira */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    margin-top: 150px; /* Espaço superior para o texto */
+    color: #fff; /* Cor do texto */
+}
+
+form {
+    max-width: 300px;
+    background-color: #fff;
+    padding: 42px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 16px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+}
+
+button {
+    background-color: #00a77e;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    padding: 12px 23px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007764;
+}

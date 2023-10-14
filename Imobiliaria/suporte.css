@@ -1,0 +1,64 @@
+body {
+    background-color: #00a77e;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilizando o conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Estilizando links */
+a {
+    color: #ffc107; /* Amarelo para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando o rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilizando os títulos das seções */
+h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #ffc107; /* Linha amarela sob os títulos */
+    padding-bottom: 10px;
+}
+
+/* Estilizando listas */
+ul, ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.social-icon img {
+    width: 32px;
+    height: 32px;
+}
+
